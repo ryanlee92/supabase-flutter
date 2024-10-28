@@ -121,11 +121,11 @@ class SupabaseAuth with WidgetsBindingObserver {
         onResumed();
       case AppLifecycleState.detached:
       case AppLifecycleState.paused:
-        if (kIsWeb || Platform.isAndroid || Platform.isIOS) {
-          Supabase.instance.client.auth.stopAutoRefresh();
-          _realtimeReconnectOperation?.cancel();
-          Supabase.instance.client.realtime.disconnect();
-        }
+        // if (kIsWeb || Platform.isAndroid || Platform.isIOS) {
+        //   Supabase.instance.client.auth.stopAutoRefresh();
+        //   _realtimeReconnectOperation?.cancel();
+        //   Supabase.instance.client.realtime.disconnect();
+        // }
       default:
     }
   }

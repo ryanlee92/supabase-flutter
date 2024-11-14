@@ -214,8 +214,8 @@ class Supabase with WidgetsBindingObserver {
         onResumed();
       case AppLifecycleState.detached:
       case AppLifecycleState.paused:
-        _realtimeReconnectOperation?.cancel();
-        Supabase.instance.client.realtime.disconnect();
+        // _realtimeReconnectOperation?.cancel();
+        // Supabase.instance.client.realtime.disconnect();
       default:
     }
   }

@@ -3,6 +3,120 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2025-01-01
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`postgrest` - `v2.4.1`](#postgrest---v241)
+ - [`supabase` - `v2.6.2`](#supabase---v262)
+ - [`supabase_flutter` - `v2.8.3`](#supabase_flutter---v283)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `supabase` - `v2.6.2`
+ - `supabase_flutter` - `v2.8.3`
+
+---
+
+#### `postgrest` - `v2.4.1`
+
+ - **DOCS**: Fix typo for RPC docs ([#1105](https://github.com/supabase/supabase-flutter/issues/1105)). ([7c8c8630](https://github.com/supabase/supabase-flutter/commit/7c8c8630257984f429406b0d85a8601881712343))
+
+
+## 2024-12-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`gotrue` - `v2.11.1`](#gotrue---v2111)
+ - [`realtime_client` - `v2.4.1`](#realtime_client---v241)
+ - [`storage_client` - `v2.3.0`](#storage_client---v230)
+ - [`supabase` - `v2.6.1`](#supabase---v261)
+ - [`supabase_flutter` - `v2.8.2`](#supabase_flutter---v282)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `supabase_flutter` - `v2.8.2`
+
+---
+
+#### `gotrue` - `v2.11.1`
+
+ - **FIX**: Ignore email and phone assertions when token hash is being verified ([#1097](https://github.com/supabase/supabase-flutter/issues/1097)). ([c9717861](https://github.com/supabase/supabase-flutter/commit/c97178610e8cd7a65a2f6a926ab559987e786d75))
+
+#### `realtime_client` - `v2.4.1`
+
+ - **FIX**(realtime_client): Prevent sending expired tokens ([#1095](https://github.com/supabase/supabase-flutter/issues/1095)). ([1bb034f0](https://github.com/supabase/supabase-flutter/commit/1bb034f0f82b03d629edc733688c8648cf01e5b9))
+
+#### `storage_client` - `v2.3.0`
+
+- **FEAT**: Support mime 2.0.0 ([#1079](https://github.com/supabase/supabase-flutter/pull/1079)).
+
+#### `supabase` - `v2.6.1`
+
+ - **FIX**(realtime_client): Prevent sending expired tokens ([#1095](https://github.com/supabase/supabase-flutter/issues/1095)). ([1bb034f0](https://github.com/supabase/supabase-flutter/commit/1bb034f0f82b03d629edc733688c8648cf01e5b9))
+ - **FIX**(realtime_client): Consolidate realtime subscription for stream ([#1096](https://github.com/supabase/supabase-flutter/issues/1096)). ([4e351155](https://github.com/supabase/supabase-flutter/commit/4e3511551cb0d6da673fa5c4187f7ada2a1f8865))
+
+
+## 2024-11-17
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`gotrue` - `v2.11.0`](#gotrue---v2110)
+ - [`postgrest` - `v2.4.0`](#postgrest---v240)
+ - [`supabase` - `v2.6.0`](#supabase---v260)
+ - [`supabase_flutter` - `v2.8.1`](#supabase_flutter---v281)
+
+---
+
+#### `gotrue` - `v2.11.0`
+
+ - **FIX**: Add equality to user attributes classes ([#1070](https://github.com/supabase/supabase-flutter/issues/1070)). ([7e7bc0ca](https://github.com/supabase/supabase-flutter/commit/7e7bc0cac722c0f3404b3f9320c536454bc51cea))
+ - **FIX**: Updated gotrue types.dart to include slackOidc ([#1066](https://github.com/supabase/supabase-flutter/issues/1066)). ([12007b32](https://github.com/supabase/supabase-flutter/commit/12007b3206c15a87c373af46bc5f4a17aa646f62))
+ - **FIX**: Send metadata inviteUserByEmail() ([#1061](https://github.com/supabase/supabase-flutter/issues/1061)). ([598540d2](https://github.com/supabase/supabase-flutter/commit/598540d2aac27d64e6be5d4a2e855d928f87fda6))
+ - **FEAT**: Add Keycloak Provider on signInWithIdToken ([#1068](https://github.com/supabase/supabase-flutter/issues/1068)). ([be998fda](https://github.com/supabase/supabase-flutter/commit/be998fda6365bcf157dc96e3e4ea7009415045ee))
+
+#### `postgrest` - `v2.4.0`
+
+ - **FEAT**: Read-only access mode rpc ([#1081](https://github.com/supabase/supabase-flutter/issues/1081)). ([d0a04154](https://github.com/supabase/supabase-flutter/commit/d0a04154ff56d40d00e1c9282d8ba859681c7275))
+
+#### `supabase` - `v2.6.0`
+
+ - **FIX**: Support custom access token ([#1073](https://github.com/supabase/supabase-flutter/issues/1073)). ([fc9ad2c9](https://github.com/supabase/supabase-flutter/commit/fc9ad2c94a02921ca8ced4564d9bcd8cde2c2397))
+ - **FEAT**: Read-only access mode rpc ([#1081](https://github.com/supabase/supabase-flutter/issues/1081)). ([d0a04154](https://github.com/supabase/supabase-flutter/commit/d0a04154ff56d40d00e1c9282d8ba859681c7275))
+
+#### `supabase_flutter` - `v2.8.1`
+
+ - **FIX**: Support custom access token ([#1073](https://github.com/supabase/supabase-flutter/issues/1073)). ([fc9ad2c9](https://github.com/supabase/supabase-flutter/commit/fc9ad2c94a02921ca8ced4564d9bcd8cde2c2397))
+
+
 ## 2024-10-07
 
 ### Changes

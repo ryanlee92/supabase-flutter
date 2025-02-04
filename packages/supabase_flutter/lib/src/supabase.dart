@@ -81,7 +81,7 @@ class Supabase with WidgetsBindingObserver {
     PostgrestClientOptions postgrestOptions = const PostgrestClientOptions(),
     StorageClientOptions storageOptions = const StorageClientOptions(),
     FlutterAuthClientOptions authOptions = const FlutterAuthClientOptions(),
-    Future<String> Function()? accessToken,
+    Future<String?> Function()? accessToken,
     bool? debug,
   }) async {
     assert(
@@ -186,7 +186,7 @@ class Supabase with WidgetsBindingObserver {
     required PostgrestClientOptions postgrestOptions,
     required StorageClientOptions storageOptions,
     required AuthClientOptions authOptions,
-    required Future<String> Function()? accessToken,
+    required Future<String?> Function()? accessToken,
   }) {
     final headers = {
       ...Constants.defaultHeaders,
@@ -257,7 +257,7 @@ class Supabase with WidgetsBindingObserver {
         // Reconnect if the socket is currently not connected.
         // When coming from [AppLifecycleState.paused] this should be the case,
         // but when coming from [AppLifecycleState.inactive] no disconnect
-        // happened and therefore connection should still be intanct and we
+        // happened and therefore connection should still be intact and we
         // should not reconnect.
 
         // ignore: invalid_use_of_internal_member
